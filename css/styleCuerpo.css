@@ -1,0 +1,42 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1, h2, h3 {
+    color: #fff;
+  }
+  
+  #main-content {
+    max-width: 1032px;
+    width: 100%;
+    padding-top: 1rem;
+    margin: 0 auto;
+
+
+  }
+  
+  .blue-bg {
+    
+    display:flex;
+    
+    color: #fff;
+    margin-top: 1.9rem;
+    height: 2rem;
+    text-align: center;
+  }
+  
+  .blue-bg > h2 {
+    color: #fff;
+  }
+  
+  .main-article {
+    padding: 0 1rem;
+  }
+  
+  article > p {
+    margin-top: 1rem;
+  }
+.space{
+    height: 14rem;
+    display: flex;
+ }

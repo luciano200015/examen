@@ -1,0 +1,75 @@
+.container-nosotros{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+
+}
+.div-nosotros{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height: 17rem;
+    background-color: rgba(111, 100, 100, 0.486);
+    justify-content: center;
+    align-items: center;
+
+
+}
+.div-card{
+    width: 70%;
+}
+
+.div-nosotros a{
+    text-decoration: none;
+
+    padding: 0.5rem;
+    background-color: rgb(82, 119, 220);
+    color: #fff;
+    border-radius:0.3rem;
+}
+.div-nosotros div{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.objetivos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.card-objetivos{
+    margin: 1rem 4rem;
+}
+.card-objetivos button{
+    background-color:rgb(96, 99, 107);
+    color: #fff;
+    width: 7rem;
+    height: 2rem;
+    cursor: pointer;
+}
+#nosotros{
+    margin-bottom: 5rem;
+}
+@media screen and (max-width: 560px){
+    .div-card{
+        width: 100%;
+        padding: 0.5rem;
+    }
+    .div-nosotros{
+        height: auto;
+    }
+    .card-objetivos{
+        margin: 1rem;
+    }
+    .objetivos{
+
+        flex-direction: column;
+
+    }
+    #nosotros{
+        margin-bottom: 0rem;
+    }
+
+}

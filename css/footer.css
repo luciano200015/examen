@@ -1,0 +1,35 @@
+footer{
+    background-color:#b1b4c1b9;
+    border-top: 1px solid #fff;
+
+}
+#elem{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 12rem;
+
+}
+.cont-footer{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+.divBackground{
+    height:70%;
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    background-image: url('https://previews.123rf.com/images/articoufa/articoufa0906/articoufa090600034/4980899-paisaje-en-el-clima-c%C3%A1lido-verano-.jpg');
+    background-position: center;
+   text-align: center;
+
+}
+.divBackground h1,h2{
+    color: rgb(73, 71, 71);
+}

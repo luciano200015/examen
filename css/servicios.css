@@ -1,0 +1,42 @@
+#servicios{
+    text-align: center;
+}
+.cont-servivios{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    text-align: center;
+}
+.card{
+    width:25%;
+    margin:1rem;
+    color:white;
+    box-shadow:0 0 12px;
+    border-radius: 1rem;
+
+}
+.cont-img{
+    width:100%;
+    height: 12rem;
+
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.card p{
+    font-size:0.7rem;
+}
+@media screen and (max-width: 640px) {
+    .card{
+        width:40%;
+    }
+}
+@media screen and (max-width: 440px) {
+    .card{
+        width:80%;
+    }
+}
